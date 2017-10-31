@@ -30,3 +30,7 @@ Setup:-
 
 __**Things to think about**__
 * Try and separate your code out into functions
+
+** Problems
+
+Cant compare the computers array to all of the input strings.

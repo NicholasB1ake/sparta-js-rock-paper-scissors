@@ -11,13 +11,14 @@ if (valuePick === computerChoices[computerChoice]){
 } else if (valuePick === 'rock' && computerChoices[1]) {
   alert('Computer picks paper! Computer Wins!')
 
-} else if (valuePick === 'rock' && computerChoices[2]){
+} else { (valuePick === 'rock' && computerChoices[2])
   alert(' Computer picks scissors You Win!')
 }
 
 // if (valuePick === 'paper' && computerChoices[0]){
 //     alert('Computer picks rock, computer wins!!')
-//   }else if (valuePick === 'paper' && computerChoices[2]) {
-//     console.log('Computer winspap');
 //
-//   }
+// }else if (valuePick === 'paper' && computerChoices[2]) {
+//     alert('Computer picks scissors! Computer Wins');
+//
+// }
